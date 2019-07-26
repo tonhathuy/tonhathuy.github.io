@@ -1,7 +1,7 @@
 *{margin: 0; padding: 0;}
 
 nav.navbar.navbar-light.navbar-fixed-top.bg-faded {
-    background: white;
+    background: #e7e8e9;
 }
 
 nav.navbar.navbar-light.navbar-fixed-top.bg-faded {} 
@@ -9,7 +9,7 @@ nav.navbar.navbar-light.navbar-fixed-top.bg-faded {}
     display: inline-block;
     font-family: segoe ui;
     font-size: 12px;
-    line-height: 35px;
+    line-height: 43px;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #000000;
@@ -19,4 +19,30 @@ nav.navbar.navbar-light.navbar-fixed-top.bg-faded {}
 }
 .navbar-nav .nav-item+.nav-item {
     margin-left: 26px;
+}
+@media (max-width: 576px){
+	*{
+		
+	}
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none!important;
+    text-align: center;
+}
+
+a.nav-link {
+    display: inline!important;
+}
+
+li.nav-item {
+    display: inline;
+    float: none!important;
+    text-align: center;
+}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
 }
