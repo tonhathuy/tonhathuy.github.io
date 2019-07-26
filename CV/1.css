@@ -1,1 +1,22 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+nav.navbar.navbar-light.navbar-fixed-top.bg-faded {
+    background: white;
+}
+
+nav.navbar.navbar-light.navbar-fixed-top.bg-faded {} 
+.nav-link {
+    display: inline-block;
+    font-family: segoe ui;
+    font-size: 12px;
+    line-height: 35px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .active>.nav-link:focus, .navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .open>.nav-link, .navbar-light .navbar-nav .open>.nav-link:focus, .navbar-light .navbar-nav .open>.nav-link:hover {
+    color: #8490ff;
+}
+.navbar-nav .nav-item+.nav-item {
+    margin-left: 26px;
+}
