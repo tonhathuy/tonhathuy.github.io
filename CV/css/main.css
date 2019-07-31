@@ -2507,3 +2507,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*--------- End Services Area -------------*/
 /*--------- Start Facts Area -------------*/
+.single-fact {
+  text-align: center;
+}
+
+.single-fact h1, .single-fact p {
+  color: #fff;
+}
+
+.single-fact h1 {
+  font-weight: 700;
+}
+@media (max-width: 800px) {
+  .single-fact {
+    margin-bottom: 30px;
+  }
+}
