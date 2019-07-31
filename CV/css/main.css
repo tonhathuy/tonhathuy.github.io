@@ -2469,3 +2469,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 .home-about-right .primary-btn:hover {
   box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
 }
+/*-------- End home-about Area ------------*/
+/*--------- Start Services Area -------------*/
+.single-services {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.single-services .lnr {
+  font-size: 35px;
+  color: #222;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-services h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-services p {
+  max-width: 318px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.single-services:hover h4 {
+  color: #8490ff;
+}
+
+/*--------- End Services Area -------------*/
+/*--------- Start Facts Area -------------*/
