@@ -7,7 +7,7 @@ $(document).ready(function() {
     if (document.getElementById("default-select")) {
         $('select').niceSelect();
     };
-    if (document.getElementById("default-select2")) {
+    if (document.getElementById("<default-se></default-se>lect2")) {
         $('select').niceSelect();
     };
     if (document.getElementById("service-select")) {
