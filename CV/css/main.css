@@ -2869,3 +2869,122 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 10px;
   }
 }
+/*--------- end price  Area -------------*/
+/*-------- start recent-blog Area -------------*/
+.recent-blog-area {
+  background: #f9f9ff;
+}
+
+.recent-blog-area h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.recent-blog-area p {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.single-recent-blog .thumb {
+  overflow: hidden;
+}
+
+.single-recent-blog .thumb img {
+  width: 100%;
+}
+
+.single-recent-blog h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 35px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.single-recent-blog a {
+  color: #222;
+}
+.single-recent-blog .name {
+  font-size: 13px;
+  font-weight: 100;
+}
+.single-recent-blog p {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.single-recent-blog .bottom {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.single-recent-blog .bottom span {
+  margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+  .single-recent-blog .meta {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .single-recent-blog {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .single-recent-blog .meta {
+    margin-top: 0px;
+  }
+}
+.single-recent-blog .f-img {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-recent-blog:hover h4{
+  cursor: pointer;
+  color: #8490ff;
+}
+.single-recent-blog:hover .f-img {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+/*-------- end recent-blog Area -------------*/
+/*--------- start brand Area -------------*/
+.brands-area {
+  padding: 80px 0;
+}
+
+.brands-area .brand-wrap .owl-carousel .owl-item img {
+  width: auto !important;
+}
+
+.brands-area .brand-wrap .single-brand {
+  text-align: center;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: .5;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.brands-area .brand-wrap .single-brand:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+}
