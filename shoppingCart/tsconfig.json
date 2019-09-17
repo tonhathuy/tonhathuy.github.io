@@ -3,7 +3,7 @@
         "target"    : "ES6",
         "module"    : "commonjs",
         "outDir"    : "mjs",
-        "removeComments" : true,
+        "removeComments" : false,
         "watch"     : true
     },
     "exclude": [
