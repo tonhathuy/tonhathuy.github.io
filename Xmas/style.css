@@ -44,12 +44,12 @@ nav a.active{
     background-attachment: fixed;
 }
 .blue{
-    background-image: url(img/img2.jpg);
+    background-image: url(img/img2.png);
     background-size: cover;
     background-attachment: fixed;
 }
 .green{
-    background-image: url(img/img3.jpg);
+    background-image: url(img/img3.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -59,7 +59,7 @@ nav a.active{
     background-attachment: fixed;
 }
 .black{
-    background-image: url(img/img5.jpg);
+    background-image: url(img/img5.png);
     background-size: cover;
     background-attachment: fixed;
 }
