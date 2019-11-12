@@ -93,6 +93,7 @@ section{
     background-attachment: fixed;
 }
 nav{
-    left: 250px;
+    left: 80%;
+    top: 70%;
 }
 }
