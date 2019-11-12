@@ -66,3 +66,33 @@ nav a.active{
 section{
     height: 1010px;
 }
+@media (max-width: 769px) {
+    .red{
+    background-image: url(imgPhone/img1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blue{
+    background-image: url(imgPhone/img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.green{
+    background-image: url(imgPhone/img3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pink{
+    background-image: url(imgPhone/img4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.black{
+    background-image: url(imgPhone/img5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    left: 250px;
+}
+}
