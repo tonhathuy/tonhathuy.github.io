@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+nav{
+    z-index: 5;
+    position: fixed;
+    top: 40%;
+    left: 1700px;
+    right: 0px;
+    margin: auto;
+    width: 80px;
+}
+nav li{
+    height: 20px;
+    margin: 20px 0px;
+    list-style: none;
+}
+nav a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 3px solid white;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+nav a:hover,
+nav a.active{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    left: -3px;
+    top: -2px;
+}
+.red{
+    background-image: url(img/img1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blue{
+    background-image: url(img/img2.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.green{
+    background-image: url(img/img3.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pink{
+    background-image: url(img/img4.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.black{
+    background-image: url(img/img5.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    height: 1010px;
+}
+@media (max-width: 769px) {
+    .red{
+    background-image: url(imgPhone/img1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blue{
+    background-image: url(imgPhone/img2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.green{
+    background-image: url(imgPhone/img3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pink{
+    background-image: url(imgPhone/img4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.black{
+    background-image: url(imgPhone/img5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    left: 80%;
+    top: 70%;
+}
+}

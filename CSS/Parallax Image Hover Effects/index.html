@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smooth Scroll Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#main">one</a></li>
+            <li><a href="#secondary">two</a></li>
+            <li><a href="#third">one</a></li>
+            <li><a href="#fourth">two</a></li>
+            <li><a href="#fifth">one</a></li>
+        </ul>
+    </nav>
+
+    <section id="main" class="blue full-height"></section>
+    <section id="secondary" class="red full-height"></section>
+    <section id="third" class="green full-height"></section>
+    <section id="fourth" class="pink full-height"></section>
+    <section id="fifth" class="black full-height"></section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script>
+        $('a').smoothScroll();
+    </script>
+</body>
+</html>
