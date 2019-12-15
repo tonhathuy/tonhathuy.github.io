@@ -240,6 +240,11 @@ body::before{
     margin-top: 200px;
     z-index: 2001;
 }
+@media (max-width: 767px){
+    .countdown{
+        width: 100%;
+    }
+}
 .countdown div{
     position: relative;
     width: 100px;
